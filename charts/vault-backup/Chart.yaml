@@ -1,6 +1,9 @@
 apiVersion: v2
 name: vault-backup
 description: A Helm chart for vault-backup tool
+maintainers:
+  - name: alv91
+    email: przemyslaw.robak@docplanner.com
 
 # A chart can be either an 'application' or a 'library' chart.
 #

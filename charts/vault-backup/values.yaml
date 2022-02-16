@@ -68,5 +68,5 @@ s3:
   bucket: "bucket"
   region: "eu-central-1"
   endpoint: ""
-  
+
 createSecret: true

@@ -69,4 +69,4 @@ s3:
   region: "eu-central-1"
   endpoint: ""
   
-  createSecret: true
+createSecret: true

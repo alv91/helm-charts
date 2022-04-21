@@ -35,6 +35,10 @@ spec:
               - name: S3_ENDPOINT
                 value: "{{ .Values.s3.endpoint }}"
               {{- end }}
+              {{- range $name, $value := .Values.extraEnvs -}}
+              - name: {{ $name }}
+                value: "{{ $value }}"
+              {{- end }}
             envFrom:
               - secretRef:
                   name: {{ include "vault-backup.fullname" . }}

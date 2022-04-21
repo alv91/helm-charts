@@ -3,6 +3,26 @@ entries:
   vault-backup:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-04-21T15:53:21.416722867Z"
+    description: A Helm chart for vault-backup tool
+    digest: 3c36cd2792ef761ba8dcc0ee8373b5f2285b6916ed56c4e0dde730cbd2afdfbc
+    home: https://github.com/alv91/vault-backup
+    keywords:
+    - vault
+    - backup
+    - s3
+    maintainers:
+    - email: przemyslaw.robak@docplanner.com
+      name: alv91
+    name: vault-backup
+    sources:
+    - https://github.com/alv91/vault-backup
+    type: application
+    urls:
+    - https://github.com/alv91/helm-charts/releases/download/vault-backup-0.2.0/vault-backup-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-02-16T19:01:11.36703255Z"
     description: A Helm chart for vault-backup tool
     digest: 43ba5b59c6951ebeed38877bf902fbfad25f2d4d232b7428594da5ce3e3c944f
@@ -41,4 +61,4 @@ entries:
     urls:
     - https://github.com/alv91/helm-charts/releases/download/vault-backup-0.1.1/vault-backup-0.1.1.tgz
     version: 0.1.1
-generated: "2022-02-16T19:01:11.36703995Z"
+generated: "2022-04-21T15:53:21.416740967Z"
